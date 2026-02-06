@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body, html{
+    height:100%;
+    width:100%;
+     overflow: hidden;
+}
+@font-face {
+    font-family: f1;
+    src: url(./fonts/Chillax-Regular.otf);
+}
+@font-face {
+    font-family: f2;
+    src: url(./fonts/Chillax-Bold.otf);
+}
+main{
+    height:100%;
+    width:100%;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    /* flex-direction: column; */
+}
+h1{
+    font-size: 30px;
+    font-family: f1;
+    color:white;
+    white-space: nowrap;
+
+}
+button{
+    padding:15px 20px;
+    background-color: #9BB4C0;
+    color:#F9F8F6;
+    font-family:f2;
+    font-size: 30px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    z-index: 1;
+
+}
+button:active{
+    scale:0.95;
+}
