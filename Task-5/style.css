@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body{
+    height:100%;
+    width:100%;
+}
+@font-face {
+    font-family:disney;
+    src: url(./fonts/waltograph42.ttf);
+}
+@font-face {
+    font-family:cinzel ;
+    src: url(./fonts/CinzelDecorative-Bold.otf);
+}
+#nav{
+    height:50px;
+    width:100%;
+    background-color:rgba(255, 255, 255, 0.8);
+    padding:10px auto;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+#nav a{
+    color:black;
+    text-decoration: none;
+    font-family:disney;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+#main{
+    
+    height:100%;
+    width:100%;
+    background-color: #e6e6dd;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    margin-top:10px;
+
+    height:350px;
+    width:270px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 15px 50px rgba(0, 0, 0, 0.1);
+    padding:10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.card img{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card h2{
+    font-weight: 800;
+    font-size: 23px;
+    color:#131210;
+    font-family: cinzel;
+    margin-bottom: 0%;
+
+}
+.card p{
+    padding:10px;
+    font-size: 11px;
+    font-weight: 200;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #3c253f;
+    text-align: center;
+}
+.card button{
+    height:40px;
+    width:130px;
+    padding:7x 40px;
+    color:white;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 30px;
+    border:none;
+    background-color: #67cfb4;
+    cursor:pointer;
+}
+button:hover{
+    font-size:17px;
+    background-color: #d9b463;
+}
+.card:hover{
+    transform:translate(10px);
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.3);
+    width:290px ;
+}
