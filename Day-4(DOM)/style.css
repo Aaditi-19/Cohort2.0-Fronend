@@ -1,0 +1,81 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html, body{
+    height:100%;
+    width:100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+    height:100%;
+    width:100%;
+    background-color: black;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height:300px;
+    width:500px;
+    padding:20px 30px;
+    background-color:white;
+    border-radius: 10px;
+}
+#reset button{
+    padding:5px 10px;
+    background-color: rgb(176, 176, 176);
+    border-radius: 5px;
+    font-size: 15px;
+    border:none;
+    margin-left:85%;
+    white-space: nowrap;
+}
+.card p{
+    font-size: 20px;
+    text-align: center;
+    margin-top:20px;
+}
+.card p span{
+    color:royalblue;
+    font-weight: 700;
+}
+.card #outer{
+    height:20px;
+    width:100%;
+    background-color: rgb(176, 176, 176);
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.card #inner{
+    height:20px;
+    width:0%;
+    background-color: rgb(12, 134, 45);
+    border-radius: 50px;
+}
+.bottom{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:30px;
+}
+.bottom h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.bottom button{
+    padding:10px 20px;
+    background-color: rgb(12, 134, 45);
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+button:active{
+    background-color:rgb(9, 105, 34); ;
+    scale:0.95;
+}
