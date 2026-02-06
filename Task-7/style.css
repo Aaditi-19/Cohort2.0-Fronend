@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: black;
+}
+main{
+    height:100%;
+    width:100%;
+    background-color: black;
+    /* padding:30px; */
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:80px 500px 150px 350px 180px 500px 500px 350px 500px 400px;
+    grid-template-areas: "nav nav nav nav"
+                         "about-firm about-firm about-firm about-firm"
+                         "figures figures figures figures"
+                         "about-us about-us about-us about-us"
+                         "expertise expertise expertise expertise"
+                         "images images images images"
+                         "milestones milestones milestones milestones"
+                         "ceo ceo ceo ceo"
+                         "connect connect connect connect"
+                         "footer footer footer footer";
+}
+
+nav{
+    background-color: beige;
+    grid-area: nav;
+}
+#about-firm{
+    border-color: blueviolet;
+    grid-area: about-firm;
+    color:white;
+}
+#figures{
+    background-color: brown;
+    grid-area:figures;
+}
+#about-us{
+    background-color: rgb(223, 255, 127);
+    grid-area: about-us;
+}
+#expertise{
+    background-color:rgb(255, 203, 196);
+    grid-area:expertise;
+}
+.images{
+    background-color: burlywood;
+    grid-area: images;
+}
+#milestones{
+    background-color: rgb(139, 240, 184);
+    grid-area: milestones;
+}
+#ceo{
+    background-color: rgb(124, 210, 210);
+    grid-area: ceo;
+}
+#connect{
+    background-color: rgb(187, 89, 159);
+    grid-area:connect;
+}
+#footer{
+    background-color: rgb(209, 163, 255);
+    grid-area: footer;
+}
