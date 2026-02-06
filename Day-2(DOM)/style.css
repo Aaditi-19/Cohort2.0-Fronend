@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #0d1b2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: f1;
+  src: url(./Milker.otf);
+}
+img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60px;
+  width: 120px;
+}
+
+h2 {
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-family: f1;
+  color: transparent;
+  background-image: url(./golden2.jpg);
+  background-position: center;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+#box {
+  height: 400px;
+  width: 450px;
+  color: transparent;
+  border-style: none;
+  border: 2px solid white;
+  border-radius: 20px;
+  /* padding:10px 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#box, h3 {
+  color: white;
+  /* text-align: center; */
+  font-size: 50px;
+}
+
+#box, p {
+  font-size: 25px;
+  /* text-align: start; */
+}
+
+button {
+  padding: 10px 30px;
+  background-color: #778da9;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  color: #e0e1dd;
+  border-style: none;
+  border-radius: 5px;
+}
+
+button:active {
+  scale: 0.95;
+  background-color: #415a77;
+}/*# sourceMappingURL=style.css.map */
