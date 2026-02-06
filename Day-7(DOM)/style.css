@@ -1,0 +1,102 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+html, body{
+  height:100%;
+  width:100%;
+  background-color: #C4A484; 
+}
+@font-face {
+  font-family: f1;
+  src: url(./fonts/Kathen\ Font\ by\ Situjuh\ \(7NTypes\).otf);
+}
+
+main{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.piano{
+  height:330px;
+  width:1000px;
+  background-color: #F7F1DE;
+  padding:30px;
+  border-radius: 5px;
+  cursor:pointer;
+  
+}
+ul{
+  display: flex;
+  list-style: none;
+}
+#white-keys ul li{
+  height:250px;
+  width:45px;
+  background-color: white;
+  color:black;
+  text-align: center;
+  padding-top:210px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 0.5px solid gray;
+  box-shadow: 0 6px 2px rgba(156, 156, 156, 0.589);
+
+}
+#white-keys ul li:active{
+  transform: translateY(5px) scale(0.99);
+  background:#e9e9e9;
+}
+
+#black-keys li{
+  height:150px;
+  width:40px;
+
+  background-color: black;
+  color:white;
+  text-align: center;
+  text-wrap: wrap;
+  margin-right:11px;
+  padding-top:100px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 0.5px solid gray;
+  box-shadow: 0 6px 2px rgba(156, 156, 156, 0.589);
+}
+#black-keys{
+  position: relative;
+  bottom:250px;
+  padding-left: 20px;
+}
+#black-keys ul li:active{
+  transform: translateY(3px) scale(0.99);
+  background:#222;
+}
+.section{
+  display: flex;
+  margin-right:30px;
+}
+
+#quote h1{
+  font-size: 60px;
+  margin-top:30px;
+  font-weight: 100;
+  font-family: f1;
+}
+
+.notes-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    pointer-events: none;
+}
+
+.note {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    width: 40px;
+    transition: transform 2s ease-out, opacity 0.5s ease;
+}
