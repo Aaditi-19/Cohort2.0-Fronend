@@ -1,0 +1,195 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: f1;
+    src: url(./fonts/sf-pro-text_regular.woff2);
+}
+
+html, body{
+
+    height:100%;
+    width: 100%;
+    font-family: f1;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    padding-top: 40px;
+    font-weight: 600;
+}
+p{
+    text-align: center;
+    font-size:28px ;
+    font-weight: 60px;
+    letter-spacing: -1px;
+
+}
+button{
+
+    padding:12px 22px;
+    margin-top:20px;
+    margin-right: 20px;
+    border-radius: 50px;
+    font-size: 17px;
+}
+
+.btn1{
+    color:white;
+    background-color: #0071E3;
+    border:none;
+}
+.btn2{
+    color:#0071E3;
+    background-color:transparent;
+    border: 2px solid #0071E3;
+}
+.btn2:hover{
+    color:white;
+    background-color: #0071E3;
+    border:none;
+}
+
+#nav{
+    height :40px;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    padding: 15px;
+    margin:0px;
+    position:fixed;
+    top:0;
+}
+
+#nav a{
+    color:black;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+#nav i{
+    font-size: 17px;;
+}
+
+#iphone17{
+    height:580px;
+    width: 100%;
+    margin-top: 40px;
+    background: url(./images/hero_iphone_17.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:white;
+    background-position: center;
+}
+
+#iphone-air{
+    height:600px;
+    width: 100%;
+    color: black;
+    margin-top:12px;
+    background: url(./images/hero_iphone_air);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+#A{
+    margin-top:12px;
+    height:720px;
+    display: flex;
+    justify-content:space-between;
+    color:black;
+    text-align: center;
+}
+#A1{
+    height:98%;
+    width:800px;
+    margin: 0px 6px 0px 12px;
+    background: url(./images/A1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#A2{
+    height:98%;
+    width:800px;
+    margin: 0px 12px 0px 6px;
+    background: url(./images/A2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#A h1{
+    font-size: 35px;
+    padding-top:50px;
+}
+
+#B{
+    /* margin-top:12px; */
+    height:620px;
+    display: flex;
+    text-align: center;
+}
+#B1{
+    height:98%;
+    width:800px;
+    margin: 0px 6px 0px 12px;
+    background: url(./images/B1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#B2{
+    height:98%;
+    width:800px;
+    margin: 0px 12px 0px 6px;
+    background: url(./images/B2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#B h1{
+    font-size: 35px;
+    padding-top:50px;
+}
+#B2-content{
+    margin-top:50%;
+}
+
+#C{
+    /* margin-top:12px; */
+    height:680px;
+    display: flex;
+    justify-content:space-between;
+    color:black;
+    text-align: center;
+}
+#C1{
+    height:98%;
+    width:800px;
+    margin: 0px 6px 0px 12px;
+    color:white;
+    background: url(./images/C1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#C2{
+    height:98%;
+    width:800px;
+    margin: 0px 12px 0px 6px;
+    background: url(./images/C2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#C h1{
+    font-size: 35px;
+    padding-top:50px;
+}
+
