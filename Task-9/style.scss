@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body{
+    height:100%;
+    width:100%;
+    // background-color: black;
+}
+main{
+    height:100%;
+    width:100%;
+    display: flex;
+    gap:10px;
+
+    section{
+        height:100%;
+        // width:100px;
+        flex-grow: 1;
+        background-color: rgb(78, 96, 129);
+        // border:2px solid white;
+        background-size:cover ;
+        background-position: center;
+        transition: all 0.3s linear;
+    }
+
+     section:hover{
+            flex-grow: 3;
+    }
+
+    section:nth-child(1){
+        background-image: url(./kasba.jpg);
+    }
+    section:nth-child(2){
+        background-image: url(./tambadi_jogeshwari.jpg);
+    }
+    section:nth-child(3){
+        background-image: url(./guruji_talim.jpg);
+    }
+    section:nth-child(4){
+        background-image: url(./tulashi_baug.jpg);
+    }
+    section:nth-child(5){
+        background-image: url(./kesariwada.webp);
+    }
+}
