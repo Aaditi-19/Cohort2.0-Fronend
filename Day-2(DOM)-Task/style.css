@@ -1,0 +1,88 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html, body{
+    height:100%;
+    width:100%;
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-direction: column;
+}
+@font-face {
+    font-family: f1;
+    src: url(./fonts/Milker.otf);
+}
+img{
+    height:100px;
+    width:100px;
+}
+h2{
+    font-size: 60px;
+    letter-spacing:2px ;
+    font-family: f1;
+    color:transparent;
+    background-image: url(./images/golden2.jpg);
+    background-position: center;
+    background-clip: text;
+}
+#box{
+    height:400px;
+    width:450px;
+    color:transparent;
+    border:2px solid white;
+    /* border-style: none; */
+    border-radius: 20px;
+    /* position: relative; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;   
+}
+#top{
+    color:white;
+    font-size: 70px;
+    flex-grow:0;
+    margin-top: 20px;  
+}
+/* #top #h3{
+    font-family: Helvetica;
+} */
+#teamLogo{
+    height:120px;
+    width:120px;
+    object-fit: contain;
+    object-position: center;
+    display:block;
+    margin: 0 auto;  
+    color:transparent; 
+}
+#bottom{
+    font-size: 35px;
+    color:white;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:15px;
+}
+button{
+    padding: 10px 30px;
+    background-color: #778da9;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color:#e0e1dd;
+    border-style: none;
+    border-radius: 5px;
+}
+button:active{
+    scale:0.95;
+    background-color: #415a77;
+}
